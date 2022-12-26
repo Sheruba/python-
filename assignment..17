@@ -1,0 +1,7 @@
+#pythoin program to print reverse of the string
+Test_list = [1, 2, 3, 4, 5]
+New_list = Test_list.copy()
+New_list.reverse()
+
+print("Original List: ", Test_list)  # Output: [1,2,3,4,5]
+print("Reversed List: ", New_list)
